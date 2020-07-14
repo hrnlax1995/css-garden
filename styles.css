@@ -1,0 +1,172 @@
+
+.html {
+  background-color:white;
+}
+
+.header {
+  display:inline-flex;
+  height:50px;
+  width:100%;
+  background-color: white;
+}
+
+.header li {
+  display: inline-flex;
+  font-family: Montserrat, Arial;
+  margin:0px 10px;
+  color: #18A0FB;
+}
+
+.header li button {
+  background-color: orange;
+  border-radius: 20px;
+  color:white;
+  margin-right: 0;
+}
+
+.contents {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  margin:0 0;
+}
+
+.contents h1 {
+  color: #00DFC2;
+  font-family: Montserrat;
+  width:448px;
+  margin: 100px 50px;
+  font-size:104px;
+  position:absolute;
+
+}
+
+.button-view {
+  background-color: orange;
+  border-radius: 10px;
+  color:white;
+  width: 30%;
+  height: 50px;
+  text-align: center;
+  padding:10px 0px;
+  font-size: 35px;
+  margin: 350px 50px;
+  overflow: visible;
+  font-weight:500px;
+  display: flex;
+  position: absolute;
+}
+
+.demo {
+  color: #646363;
+  width: 60%;
+  margin: 440px 50px;
+  position: absolute;
+}
+
+.img {
+  margin: 400px 100px;
+  position: absolute;
+}
+
+.contents2 {
+  font-family: century;
+  background-color: #59BDFF;
+  height: 250px;
+  width:100%;
+  text-align: center;
+  color: white;
+  padding: 20px 100px;
+  font-weight: 500px;
+  font-size: 20px;
+  align-items: center;
+  letter-spacing: -0.015em;
+}
+.contents2 li {
+  display:inline-flex;
+  margin: 20px;
+}
+
+.enlightment {
+  position: absolute;
+  width: 50%;
+  height: 500px;
+  left: 0px;
+  background: #FFFFFF;
+}
+.enlightment-right {
+  font-family: Montserrat,century;
+  width: 50%;
+  height: 500px;
+  background:#ECECEC;
+  margin-left: 50%;
+  color: rgba(0, 0, 0, 0.8);
+}
+.enlightment-right h2 {
+  position: absolute;
+  top: 850px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  color: #646363;
+  margin: 50px 20px;
+}
+
+.enlightment-right p {
+  position: absolute;
+  margin: 150px 20px;
+  padding:5px;
+  color: #646363;
+}
+
+.enlightment-right span {
+  font-size:53px;
+}
+
+.about {
+  position: absolute;
+  background: white;
+  margin-left:50%;
+}
+
+.about img {
+  float:right;
+}
+
+.about-left {
+  font-family: Montserrat,century;
+  width: 50%;
+  height: 500px;
+  background:#FFBEA8;
+  margin: 0;
+  padding-top: 100px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.about-left h2 {
+  position: absolute;
+  top: 1350px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  color: #646363;
+  margin: 50px 20px;
+
+}
+
+.about-left span {
+  font-size:53px;
+}
+
+.about-left p about-1 {
+  position: absolute;
+  color: #646363;
+}
+
+.about-left p about-2 {
+  position: absolute;
+  color: #646363;
+}
