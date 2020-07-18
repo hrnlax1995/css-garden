@@ -16,9 +16,10 @@
   margin: 0px 10px;
   color: #18A0FB;
   cursor: pointer;
+  float:left;
 }
 
-.header button {
+.header btn-submit {
   position: absolute;
   display: inline-flex;
   background-color: orange;
@@ -28,6 +29,7 @@
   position: absolute;
   right:0;
   z-index: 9999;
+  float:right;
 }
 
 .contents {
@@ -123,14 +125,13 @@
   background-color:#000000;
   opacity: 0.68;
   filter: blur(1px);
+  display: flex;
   border-radius: 5px;
-  position: absolute;
-  height:300px;
+  height:500px;
   width:40%;
-  top:420px;
-  left:50px;
   animation-name:move;
   animation-duration: 500ms;
+  margin-top:400px;
 }
 
 @@keyframes move {
@@ -141,11 +142,10 @@
 .view-box li {
   text-decoration: none;
   z-index: 9999;
+  color:white;
 }
 
 .view-box img {
-  display: inline-flex;
-  right:0;
   width:5%;
 }
 
@@ -159,12 +159,10 @@
 }
 
 .contents img {
-  margin: 300px 100px;
-  position: absolute;
-  width:35%;
-  right:60px;
-  top: 0px;
-  margin-top:0px;
+  width:30%;
+  float: right;
+  margin-right:250px;
+  margin-top: 0px;
 
 }
 
