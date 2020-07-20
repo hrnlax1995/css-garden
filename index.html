@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CSS ZEN GARDEN</title>
+    <title>CSS Zen Garden: The Beauty of CSS Design</title>
+    <link rel="stylesheet" media="screen" href="style.css?v=8may2013">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.csszengarden.com/zengarden.xml">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dave Shea">
+    <meta name="description" content="A demonstration of what can be accomplished visually through CSS-based design.">
+    <meta name="robots" content="all">
+
   </head>
   <body>
     <div class="header">
@@ -14,34 +22,57 @@
         <li><a href="#link-participation">Participation</a></li>
         <li><a href="#link-requirements">Requirements</a></li>
       </ul>
-      <a href="#" class="btn-submit">Submit a designs</a>
+      <a href="#" class="btn-submit">Submit a design</a>
     </div>
-    <div class="contents">
-    <h1>CSS ZEN GARDEN</h1>
-      <div class="hidden_box">
-        <label for="button-view">View All Design</label>
-        <input type="checkbox" id="button-view"/>
-      <div class="hidden_show">
+　　 <div class="first-wrapper">
+      <div class="contents">
+    　  <h1>CSS ZEN GARDEN</h1>
+        <div class="hidden_box">
+          <label for="button-view">Select a Design</label>
+          <input type="checkbox" id="button-view"/>
+        <div class="hidden_show">
       <!--非表示ここから-->
-      	<div class="view-box">
-          <ul>
-            <li>Mid Century Modern 　by Andrew Lohman</li>
-            <li>Garments 　by Dan Mall</li>
-            <li>Steel　by Steffen Knoeller</li>
-            <li>Apothecary　by Trent Walton</li>
-            <li>Screen Filler　by Elliot Jay Stoc</li>
-            <li>Fountain Kiss　by Jeremy Carlson</li>
-            <li>A Robot Named Jimmy　by meltmedia</li>
-          </ul>
-          <img src="arrow.png" alt="arrow">
-        </div>
-      <!--ここまで-->
-    </div>
-</div>
+      	  <div class="view-box">
+            <nav role="navigation">
+    					<ul>
+                <li><a href="/221/" class="design-name">Mid Century Modern</a> by						<a href="http://andrewlohman.com/" class="designer-name">Andrew Lohman</a></li>
+                <li><a href="/220/" class="design-name">Garments</a> by						<a href="http://danielmall.com/" class="designer-name">Dan Mall</a><a href="/220/" class="design-name">Garments</a> by						<a href="http://danielmall.com/" class="designer-name">Dan Mall</a></li>
+                <li><a href="/219/" class="design-name">Steel</a> by						<a href="http://steffen-knoeller.de" class="designer-name">Steffen Knoeller</a></li>
+                <li><a href="/218/" class="design-name">Apothecary</a> by						<a href="http://trentwalton.com" class="designer-name">Trent Walton</a></li>
+                <li><a href="/217/" class="design-name">Screen Filler</a> by						<a href="http://elliotjaystocks.com/" class="designer-name">Elliot Jay Stocks</a></li>
+                <li><a href="/216/" class="design-name">Fountain Kiss</a> by						<a href="http://jeremycarlson.com" class="designer-name">Jeremy Carlson</a></li>
+                <li><a href="/215/" class="design-name">A Robot Named Jimmy</a> by						<a href="http://meltmedia.com/" class="designer-name">meltmedia</a></li>
+                </li><a href="/214/" class="design-name">Verde Moderna</a> by						<a href="http://www.mezzoblue.com/" class="designer-name">Dave Shea</a></li>
+              </ul>
+            </nav>
+            <div class="arrow"><img src="arrow.png" alt="arrow"></div>
 
-    <p class="demo">A demonstration of what can be accomplished through CSS-based design. </p>
-    <img src="travel1.jpg" alt="travel1">
-    </div>
+
+          <div class="design-archives" id="design-archives">
+    				<h3 class="archives">Archives:</h3>
+    				<nav role="navigation">
+              <ul>
+    						<li class="next">
+    							<a href="/214/page1">
+    								Next Designs <span class="indicator">&rsaquo;</span>
+    							</a>
+    						</li>
+    						<li class="viewall">
+    							<a href="http://www.mezzoblue.com/zengarden/alldesigns/" title="View every submission to the Zen Garden.">
+    								View All Designs							</a>
+    						</li>
+    					</ul>
+            </nav>
+    			</div>
+      </div>
+      <!--ここまで-->
+      </div>
+    　　  <p class="demo">A demonstration of what can be accomplished through CSS-based design. </p>
+    　　  <div class="travel1">
+      　　  <img src="travel1.jpg" alt="travel1">
+    　　  </div>
+  　</div>
+
 
     <div class="contents2">
       <a name="link-download"></a>
@@ -109,10 +140,12 @@ The CSS Zen Garden invites you to relax and meditate on the important lessons of
 
     <div class="longfooter">
       <ul>
-        <li><a class="hover1" href="#">VIEW THIS DESIGN CSS</a></li>
-        <li><a class="hover1" href="#">FAQ</a></li>
-        <li><a class="hover1" href="#">SUBMIT A DESIGN</a></li>
-        <li><a class="hover1" href="#">TRANSLATIONS</a></li>
+        <li><a class="hover1" href="http://www.mezzoblue.com/zengarden/alldesigns/">VIEW ALL DESIGNS</a></li>
+        <li><a class="hover1" href="http://www.mezzoblue.com/zengarden/resources/">VIEW THIS DESIGN CSS</a></li>
+        <li><a class="hover1" href="http://www.mezzoblue.com/zengarden/faq/">FAQ</a></li>
+        <li><a class="hover1" href="http://www.mezzoblue.com/zengarden/submit/">SUBMIT A DESIGN</a></li>
+        <li><a class="hover1" href="http://www.mezzoblue.com/zengarden/translations/">TRANSLATIONS
+        </a></li>
       </ul>
       <div class="icons">
         <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.csszengarden.com%2F" class="HTMLicon" ><img src="HTMLicon.png" alt="HTML"></a>
